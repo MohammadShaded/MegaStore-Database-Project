@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="198.0" prefWidth="368.0" stylesheets="@../../Styles/SmallPopStyle.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thestore.SlidesControllers.InventorySlidesControl">
+    <children>
+        <Label layoutX="15.0" layoutY="38.0" stylesheets="@../../Styles/search.css" text="Production Date:" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <DatePicker fx:id="ProductionDate" layoutX="15.0" layoutY="64.0" prefHeight="25.0" prefWidth="120.0" promptText="HireDate" />
+        <Label layoutX="15.0" layoutY="97.0" stylesheets="@../../Styles/search.css" text="Warehouae:" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+      <ChoiceBox fx:id="Warehouse" layoutX="14.0" layoutY="124.0" prefWidth="150.0" />
+    </children>
+</AnchorPane>

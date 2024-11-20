@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ContainerPane" onMouseClicked="#handleTextFieldsContainerClicked" prefHeight="640.0" prefWidth="950.0" stylesheets="@../Styles/AdminStyle.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thestore.AdminControllers.InventoryControl">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b21217" height="25.0" layoutX="-1.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="54.0" />
+        <ScrollPane layoutY="340.0" prefHeight="270.0" prefWidth="950.0">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="500.0" prefWidth="950.0">
+                    <children>
+                        <TableView fx:id="Table" minWidth="-Infinity" prefHeight="500.0" prefWidth="950.0" stylesheets="@../Styles/AdminStyle.css">
+                            <columns>
+                                <TableColumn fx:id="inventoryid" minWidth="100.0" prefWidth="130.0" text="Inventory ID" />
+                                <TableColumn fx:id="product" minWidth="100.0" prefWidth="130.0" text="Product " />
+                                <TableColumn fx:id="quantity" minWidth="100.0" prefWidth="130.0" text="Quantity" />
+                                <TableColumn fx:id="productionDate" minWidth="100.0" prefWidth="130.0" text="Production Date" />
+                        <TableColumn fx:id="expiryDate" minWidth="100.0" prefWidth="130.0" text="Expiry Date" />
+                                <TableColumn fx:id="warehouse" minWidth="100.0" prefWidth="130.0" text="Warehouse " />
+                            </columns>
+                        </TableView>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <AnchorPane prefHeight="40.0" prefWidth="950.0" styleClass="BarHeader">
+            <children>
+                <Label layoutX="9.0" layoutY="2.0" prefHeight="32.0" prefWidth="131.0" styleClass="MainLabel" text="Inventories">
+                    <font>
+                        <Font size="32.0" />
+                    </font>
+                </Label>
+                <Button layoutX="833.0" layoutY="8.0" mnemonicParsing="false" onAction="#openAddPopUp" stylesheets="@../Styles/search.css" text="Add Inventory" textFill="#d8d3ce">
+                    <styleClass>
+                        <String fx:value="buttonAdd" />
+                        <String fx:value="button-design" />
+                    </styleClass>
+                </Button>
+            </children>
+        </AnchorPane>
+        <TextField fx:id="searchIID" layoutX="26.0" layoutY="133.0" promptText="InventoryID" styleClass="textfield-design" stylesheets="@../Styles/search.css" />
+        <Label layoutX="26.0" layoutY="108.0" stylesheets="@../Styles/search.css" text="InventoryID :" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="26.0" layoutY="177.0" stylesheets="@../Styles/search.css" text="Product :" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="26.0" layoutY="244.0" stylesheets="@../Styles/search.css" text="Warehouse :" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Separator layoutX="159.0" layoutY="70.0" orientation="VERTICAL" prefHeight="270.0" />
+        <Label layoutX="174.0" layoutY="117.0" stylesheets="@../Styles/search.css" text="Production Date :" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <CheckBox fx:id="spinnersCheck" layoutX="726.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleSpinnersCheckAction" />
+        <DatePicker fx:id="DateFrom" disable="true" layoutX="170.0" layoutY="143.0" prefHeight="25.0" prefWidth="120.0" promptText="From" />
+        <Label layoutX="293.0" layoutY="146.0" text="-">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <DatePicker fx:id="DateTo" disable="true" layoutX="306.0" layoutY="143.0" prefHeight="25.0" prefWidth="120.0" promptText="To" />
+        <Label layoutX="498.0" layoutY="71.0" stylesheets="@../Styles/search.css" text="Quantity :" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Spinner fx:id="quantityFrom" cache="true" disable="true" editable="true" layoutX="494.0" layoutY="98.0" max="50000" min="0" prefHeight="25.0" prefWidth="94.0" />
+        <Spinner fx:id="quantityTo" cache="true" disable="true" editable="true" layoutX="603.0" layoutY="98.0" max="50000" min="0" prefHeight="25.0" prefWidth="94.0" />
+        <Label layoutX="591.0" layoutY="102.0" text="-">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <CheckBox fx:id="DateCheck" layoutX="451.0" layoutY="148.0" mnemonicParsing="false" onAction="#handleDateCheckAction" />
+        <Separator layoutX="477.0" layoutY="70.0" orientation="VERTICAL" prefHeight="270.0" />
+        <Button layoutX="8.0" layoutY="611.0" mnemonicParsing="false" onAction="#delete" stylesheets="@../Styles/search.css" text="Delete" textFill="#d8d3ce">
+            <styleClass>
+                <String fx:value="buttonAdd" />
+                <String fx:value="button-design" />
+            </styleClass>
+        </Button>
+        <Button layoutX="706.0" layoutY="198.0" mnemonicParsing="false" onAction="#update" stylesheets="@../Styles/search.css" text="Update" textFill="#d8d3ce">
+            <styleClass>
+                <String fx:value="buttonAdd" />
+                <String fx:value="button-design" />
+            </styleClass>
+        </Button>
+        <Button layoutX="708.0" layoutY="159.0" mnemonicParsing="false" onAction="#search" stylesheets="@../Styles/search.css" text="Search" textFill="#d8d3ce">
+            <styleClass>
+                <String fx:value="buttonAdd" />
+                <String fx:value="button-design" />
+            </styleClass>
+        </Button>
+      <Button layoutX="896.0" layoutY="304.0" mnemonicParsing="false" onAction="#refreash" prefHeight="20.0" prefWidth="41.0" stylesheets="@../Styles/search.css">
+         <styleClass>
+            <String fx:value="button-RefreshDesign" />
+            <String fx:value="button-design" />
+         </styleClass>
+         <graphic>
+            <ImageView fitHeight="23.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../ImageFiles/refresh.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="178.0" layoutY="192.0" stylesheets="@../Styles/search.css" text="Expiry Date:" textFill="#bc363a">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="EDateFrom" disable="true" layoutX="174.0" layoutY="218.0" prefHeight="25.0" prefWidth="120.0" promptText="From" />
+      <Label layoutX="297.0" layoutY="221.0" text="-">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="EDateTo" disable="true" layoutX="310.0" layoutY="218.0" prefHeight="25.0" prefWidth="120.0" promptText="To" />
+      <CheckBox fx:id="EDateCheck" layoutX="452.0" layoutY="223.0" mnemonicParsing="false" onAction="#handleEDateCheckAction" />
+      <Button layoutX="726.0" layoutY="259.0" mnemonicParsing="false" onAction="#report" stylesheets="@../Styles/search.css" text="Report" textFill="#d8d3ce">
+         <styleClass>
+            <String fx:value="buttonAdd" />
+            <String fx:value="button-design" />
+         </styleClass>
+      </Button>
+      <ChoiceBox fx:id="searchProduct" layoutX="17.0" layoutY="201.0" prefHeight="25.0" prefWidth="139.0" />
+      <ChoiceBox fx:id="searchWarehouse" layoutX="17.0" layoutY="274.0" prefHeight="25.0" prefWidth="139.0" />
+    </children>
+</AnchorPane>

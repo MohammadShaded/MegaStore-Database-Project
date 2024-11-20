@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="198.0" prefWidth="368.0" styleClass="root" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thestore.SlidesControllers.InventorySlidesControl">
+    <children>
+        <TextField fx:id="ID" layoutX="14.0" layoutY="39.0" prefHeight="27.0" prefWidth="188.0" promptText="InventoryID" styleClass="textfield-design" stylesheets="@../../Styles/search.css" />
+        <Label layoutX="14.0" layoutY="14.0" stylesheets="@../../Styles/search.css" text="InventoryID :" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="14.0" layoutY="67.0" stylesheets="@../../Styles/search.css" text="Product :" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="17.0" layoutY="125.0" prefHeight="35.0" prefWidth="94.0" stylesheets="@../../Styles/search.css" text="Quantity :" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Spinner fx:id="quantity" cache="true" editable="true" layoutX="17.0" layoutY="159.0" max="50000" min="0" prefHeight="25.0" prefWidth="94.0" />
+        <ChoiceBox fx:id="product" layoutX="13.0" layoutY="94.0" prefWidth="150.0" />
+    </children>
+</AnchorPane>

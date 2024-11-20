@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="198.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thestore.SlidesControllers.ProductSlidesControl">
+    <children>
+      <Label layoutX="17.0" layoutY="11.0" stylesheets="@../../Styles/search.css" text="Manufacturer:" textFill="#bc363a">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="Manufacturer" layoutX="13.0" layoutY="35.0" prefWidth="150.0" />
+      <Label layoutX="19.0" layoutY="76.0" stylesheets="@../../Styles/search.css" text="Price" textFill="#bc363a">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Spinner fx:id="Price" cache="true" editable="true" layoutX="15.0" layoutY="103.0" max="50000" min="0" prefHeight="25.0" prefWidth="94.0" />
+    </children>
+</AnchorPane>

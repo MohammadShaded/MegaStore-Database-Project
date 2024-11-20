@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="198.0" prefWidth="368.0" stylesheets="@../../Styles/SmallPopStyle.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thestore.SlidesControllers.ProductSlidesControl">
+    <children>
+        <TextField fx:id="ProductID" layoutX="14.0" layoutY="39.0" promptText="Product ID" styleClass="textfield-design" stylesheets="@../../Styles/search.css" />
+        <Label layoutX="14.0" layoutY="14.0" stylesheets="@../../Styles/search.css" text="Product ID :" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="Name" layoutX="14.0" layoutY="92.0" promptText="Name" styleClass="textfield-design" stylesheets="@../../Styles/search.css" />
+        <Label layoutX="14.0" layoutY="67.0" stylesheets="@../../Styles/search.css" text="Product Name:" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="13.0" layoutY="125.0" stylesheets="@../../Styles/search.css" text="Brand:" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="Brand" layoutX="10.0" layoutY="152.0" prefHeight="27.0" prefWidth="122.0" promptText="Company name" styleClass="textfield-design" stylesheets="@../../Styles/search.css" />
+      <Label layoutX="166.0" layoutY="16.0" stylesheets="@../../Styles/search.css" text="Shilf Life:" textFill="#bc363a">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Spinner fx:id="ShilfDay" cache="true" editable="true" layoutX="281.0" layoutY="19.0" max="50000" min="0" prefHeight="25.0" prefWidth="48.0" />
+      <Spinner fx:id="ShilfMonth" cache="true" editable="true" layoutX="281.0" layoutY="48.0" max="50000" min="0" prefHeight="25.0" prefWidth="48.0" />
+      <Spinner fx:id="ShilfYear" cache="true" editable="true" layoutX="281.0" layoutY="78.0" max="50000" min="0" prefHeight="25.0" prefWidth="48.0" />
+      <Label layoutX="243.0" layoutY="23.0" text="Days:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="226.0" layoutY="51.0" text="Months:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="241.0" layoutY="81.0" text="Years:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Separator layoutX="152.0" orientation="VERTICAL" prefHeight="198.0" />
+    </children>
+</AnchorPane>

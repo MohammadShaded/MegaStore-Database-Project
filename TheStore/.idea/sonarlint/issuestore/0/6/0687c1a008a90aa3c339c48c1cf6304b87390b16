@@ -1,0 +1,27 @@
+
+i
+java:S11926"TDefine a constant instead of duplicating this literal "-fx-text-fill: red;" 4 times.(ËÚ§!
+f	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ´é°
+s
+java:S3655•"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ŸªÍäùÿÿÿÿ8¬™“ò1
+Y
+java:S2589="7Remove this expression which always evaluates to "true"(ˆĞ³½üÿÿÿÿ8¯™“ò1
+h	java:S116"TRename this field "RightLogo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ÙQ
+h	java:S116"SRename this field "UserName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È”¸„
+m
+java:S1450"WRemove the "UserName" field and declare it as a local variable in the relevant methods.(È”¸„
+n
+java:S1450'"SRemove the "root" field and declare it as a local variable in the relevant methods.(Ğ´”ğûÿÿÿÿ
+j
+java:S1450%"TRemove the "scene" field and declare it as a local variable in the relevant methods.(õ °”
+s
+java:S1450"XRemove the "warehouse" field and declare it as a local variable in the relevant methods.(õ¦Ûôøÿÿÿÿ
+1
+java:S3626l"Remove this redundant jump.(ûÁİ…
+s
+java:S21594"VRemove this call to "equals"; comparisons between unrelated types always return false.(™Âé¦8–š“ò1
+Q	java:S125|"<This block of commented-out lines of code should be removed.(ö¬îÎ
+J
+java:S1172",Remove this unused method parameter "event".(µäÀø8ïœ“ò1
+B
+java:S1128"%Remove this unused import 'java.sql'.(´İ…Å8†“ò1

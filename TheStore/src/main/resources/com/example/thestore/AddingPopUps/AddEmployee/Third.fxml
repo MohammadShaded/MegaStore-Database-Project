@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="198.0" prefWidth="368.0" stylesheets="@../../Styles/SmallPopStyle.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thestore.SlidesControllers.EmployeeSlidesControl">
+   <children>
+      <ChoiceBox fx:id="choiceRoll" layoutX="15.0" layoutY="97.0" prefWidth="150.0" />
+      <Label layoutX="15.0" layoutY="75.0" stylesheets="@../../Styles/search.css" text="Role:" textFill="#bc363a">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="BirthDate" layoutX="15.0" layoutY="40.0" prefHeight="25.0" prefWidth="120.0" promptText="From" />
+      <Label layoutX="15.0" layoutY="14.0" stylesheets="@../../Styles/search.css" text="Birth Date:" textFill="#bc363a">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="220.0" layoutY="14.0" stylesheets="@../../Styles/search.css" text="Password:" textFill="#bc363a">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="password" layoutX="220.0" layoutY="39.0" prefHeight="27.0" prefWidth="122.0" promptText="Password" styleClass="textfield-design" stylesheets="@../../Styles/search.css" />
+      <Separator layoutX="192.0" layoutY="15.0" orientation="VERTICAL" prefHeight="170.0" />
+      <Label layoutX="15.0" layoutY="131.0" stylesheets="@../../Styles/search.css" text="Warehouse:" textFill="#bc363a">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="warehouse" layoutX="15.0" layoutY="156.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

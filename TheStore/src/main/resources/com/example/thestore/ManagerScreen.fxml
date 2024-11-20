@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thestore.ManagerScreenControl">
+    <left>
+        <AnchorPane fx:id="LeftLocation" prefHeight="650.0" prefWidth="100.0" stylesheets="@Styles/PrimaryScreenStyle.css" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="exit" graphicTextGap="1.0" layoutX="23.0" layoutY="586.0" mnemonicParsing="false" onAction="#switchToScene1" prefHeight="34.0" prefWidth="43.0" style="-fx-background-color: transparent;">
+                    <graphic>
+                        <ImageView cache="true" fitHeight="38.0" fitWidth="27.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@ImageFiles/logoutIcon.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <ImageView fitHeight="77.0" fitWidth="78.0" layoutX="16.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@ImageFiles/PIcon.png" />
+                    </image>
+                </ImageView>
+            <Button fx:id="settingsPopUp" graphicTextGap="1.0" layoutX="25.0" layoutY="521.0" mnemonicParsing="false" onAction="#settingsPopUp" prefHeight="35.0" prefWidth="8.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView cache="true" fitHeight="38.0" fitWidth="27.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageFiles/Settings.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            </children>
+        </AnchorPane>
+    </left>
+    <center>
+        <AnchorPane prefHeight="650.0" prefWidth="950.0" BorderPane.alignment="CENTER">
+            <children>
+                <AnchorPane fx:id="UpLocation" prefHeight="30.0" prefWidth="950.0" stylesheets="@Styles/PrimaryScreenStyle.css">
+                    <children>
+                        <Label fx:id="USER" layoutX="640.0" layoutY="7.5" styleClass="my-textfield" text="UserName (Manager of )" />
+                        <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="612.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@ImageFiles/UserName2.png" />
+                            </image>
+                        </ImageView>
+                    </children></AnchorPane>
+                <AnchorPane fx:id="RightLocation" layoutY="30.0" prefHeight="620.0" prefWidth="950.0">
+               <children>
+                  <TabPane fx:id="tabPane" prefHeight="620.0" prefWidth="950.0" stylesheets="@Styles/TabPaneStyle.css" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab text="Employees">
+                        <content>
+                          <AnchorPane fx:id="EmpPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <ScrollPane layoutX="-2.0" layoutY="280.0" prefHeight="270.0" prefWidth="950.0" stylesheets="@Styles/AdminStyle.css">
+                                       <content>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="500.0" prefWidth="1600.0">
+                                             <children>
+                                                <TableView fx:id="Table" minWidth="-Infinity" prefHeight="500.0" prefWidth="1600.0" stylesheets="@Styles/AdminStyle.css">
+                                                   <columns>
+                                                      <TableColumn fx:id="EmployeeID" minWidth="100.0" prefWidth="75.0" text="EmployeeID" />
+                                                      <TableColumn fx:id="FirstName" minWidth="100.0" prefWidth="75.0" text="FirstName" />
+                                                      <TableColumn fx:id="LastName" minWidth="100.0" prefWidth="75.0" text="LastName" />
+                                                      <TableColumn fx:id="City" minWidth="100.0" prefWidth="75.0" text="City" />
+                                                      <TableColumn fx:id="Street" minWidth="100.0" prefWidth="75.0" text="Street" />
+                                                      <TableColumn fx:id="Email" minWidth="100.0" prefWidth="75.0" text="Email Address" />
+                                                      <TableColumn fx:id="Phone" minWidth="100.0" prefWidth="95.0" text="Phone number" />
+                                                      <TableColumn fx:id="Gender" minWidth="100.0" prefWidth="55.0" text="Gender" />
+                                                      <TableColumn fx:id="Salary" minWidth="100.0" prefWidth="75.0" text="Salary" />
+                                                      <TableColumn fx:id="Password" minWidth="100.0" prefWidth="75.0" text="Password" />
+                                                      <TableColumn fx:id="Role" minWidth="100.0" prefWidth="75.0" text="Role" />
+                                                      <TableColumn fx:id="HireDate" minWidth="100.0" prefWidth="75.0" text="Hire Date" />
+                                                      <TableColumn fx:id="Birthdate" minWidth="100.0" prefWidth="75.0" text="Birthdate" />
+                                                      <TableColumn fx:id="Warehouse" minWidth="100.0" prefWidth="75.0" text="Warehouse" />
+                                                      <TableColumn fx:id="Bank" minWidth="100.0" prefWidth="75.0" text="Bank account" />
+                                                   </columns>
+                                                </TableView>
+                                             </children>
+                                          </AnchorPane>
+                                       </content>
+                                    </ScrollPane>
+                                    <TextField layoutX="24.0" layoutY="47.0" promptText="First" styleClass="textfield-design" stylesheets="@Styles/search.css" />
+                                    <TextField layoutX="24.0" layoutY="107.0" promptText="City" styleClass="textfield-design" stylesheets="@Styles/search.css" />
+                                    <TextField layoutX="151.0" layoutY="47.0" promptText="Last" styleClass="textfield-design" stylesheets="@Styles/search.css" />
+                                    <Label layoutX="24.0" layoutY="21.0" stylesheets="@Styles/search.css" text="Name:" textFill="#bc363a">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="24.0" layoutY="82.0" stylesheets="@Styles/search.css" text="Address:" textFill="#bc363a">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField layoutX="151.0" layoutY="107.0" promptText="Street" styleClass="textfield-design" stylesheets="@Styles/search.css" />
+                                    <Label layoutX="26.0" layoutY="208.0" stylesheets="@Styles/search.css" text="Hire Date:" textFill="#bc363a">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <DatePicker fx:id="DateFrom" disable="true" layoutX="26.0" layoutY="236.0" prefHeight="25.0" prefWidth="120.0" promptText="From" />
+                                    <Label layoutX="148.0" layoutY="239.0" text="-">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <DatePicker fx:id="DateTo" disable="true" layoutX="162.0" layoutY="237.0" prefHeight="25.0" prefWidth="120.0" promptText="To" />
+                                    <Label layoutX="26.0" layoutY="142.0" stylesheets="@Styles/search.css" text="E-mail Address:" textFill="#bc363a">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField layoutX="24.0" layoutY="167.0" prefHeight="27.0" prefWidth="122.0" promptText="Email" styleClass="textfield-design" stylesheets="@Styles/search.css" />
+                                    <CheckBox fx:id="DateCheck" layoutX="293.0" layoutY="241.0" mnemonicParsing="false" onAction="#handleDateCheckAction" />
+                                    <Separator layoutX="316.0" layoutY="15.0" orientation="VERTICAL" prefHeight="250.0" />
+                                    <CheckBox fx:id="spinnersCheck" layoutX="560.0" layoutY="147.0" mnemonicParsing="false" onAction="#handleSpinnersCheckAction" />
+                                    <Label layoutX="329.0" layoutY="118.0" stylesheets="@Styles/search.css" text="Salary:" textFill="#bc363a">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Spinner fx:id="salaryFrom" cache="true" disable="true" editable="true" layoutX="332.0" layoutY="142.0" max="50000" min="0" prefHeight="25.0" prefWidth="94.0" />
+                                    <Spinner fx:id="salaryTo" cache="true" disable="true" editable="true" layoutX="449.0" layoutY="143.0" max="50000" min="0" prefHeight="25.0" prefWidth="94.0" />
+                                    <Label layoutX="434.0" layoutY="145.0" text="-">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="329.0" layoutY="82.0" stylesheets="@Styles/search.css" text="Gender:" textFill="#bc363a">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <RadioButton fx:id="Male" disable="true" layoutX="395.0" layoutY="86.0" mnemonicParsing="false" text="Male">
+                                       <toggleGroup>
+                                          <ToggleGroup fx:id="radioGroup" />
+                                       </toggleGroup></RadioButton>
+                                    <RadioButton fx:id="Female" disable="true" layoutX="449.0" layoutY="86.0" mnemonicParsing="false" text="Female" toggleGroup="$radioGroup" />
+                                    <CheckBox fx:id="GenderCheck" layoutX="526.0" layoutY="86.0" mnemonicParsing="false" onAction="#handleGenderCheckAction" />
+                                    <Label layoutX="329.0" layoutY="21.0" stylesheets="@Styles/search.css" text="Employee ID:" textFill="#bc363a">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField layoutX="329.0" layoutY="47.0" prefHeight="27.0" prefWidth="122.0" promptText="ID" styleClass="textfield-design" stylesheets="@Styles/search.css" />
+                                    <Separator layoutX="598.0" layoutY="15.0" orientation="VERTICAL" prefHeight="250.0" />
+                                    <Label layoutX="629.0" layoutY="21.0" stylesheets="@Styles/search.css" text="Phone number" textFill="#bc363a">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField layoutX="625.0" layoutY="47.0" prefHeight="27.0" prefWidth="142.0" styleClass="textfield-design" stylesheets="@Styles/search.css" />
+                                    <ChoiceBox fx:id="choiceRoll" layoutX="625.0" layoutY="108.0" prefWidth="150.0" />
+                                    <Label layoutX="629.0" layoutY="82.0" stylesheets="@Styles/search.css" text="Role:" textFill="#bc363a">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Button layoutX="747.0" layoutY="207.0" mnemonicParsing="false" stylesheets="@Styles/search.css" text="Update" textFill="#d8d3ce">
+                                       <styleClass>
+                                          <String fx:value="buttonAdd" />
+                                          <String fx:value="button-design" />
+                                       </styleClass>
+                                    </Button>
+                                    <Button layoutX="748.0" layoutY="167.0" mnemonicParsing="false" stylesheets="@Styles/search.css" text="Search" textFill="#d8d3ce">
+                                       <styleClass>
+                                          <String fx:value="buttonAdd" />
+                                          <String fx:value="button-design" />
+                                       </styleClass>
+                                    </Button>
+                                    <Button layoutX="13.0" layoutY="551.0" mnemonicParsing="false" onAction="#deleteE" stylesheets="@Styles/search.css" text="Delete" textFill="#d8d3ce">
+                                       <styleClass>
+                                          <String fx:value="buttonAdd" />
+                                          <String fx:value="button-design" />
+                                       </styleClass>
+                                    </Button>
+                                    <Button fx:id="refreash" layoutX="896.0" layoutY="243.0" mnemonicParsing="false" onAction="#refreash" prefHeight="20.0" prefWidth="41.0" stylesheets="@Styles/search.css">
+                                       <styleClass>
+                                          <String fx:value="button-RefreshDesign" />
+                                          <String fx:value="button-design" />
+                                       </styleClass>
+                                       <graphic>
+                                          <ImageView fitHeight="23.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@ImageFiles/refresh.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Button>
+                                    <Button layoutX="850.0" layoutY="5.0" mnemonicParsing="false" onAction="#openAddPopUp" stylesheets="@Styles/search.css" text="Add Employee" textFill="#d8d3ce">
+                                       <styleClass>
+                                          <String fx:value="buttonAdd" />
+                                          <String fx:value="button-design" />
+                                       </styleClass>
+                                    </Button>
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                           <graphic>
+                              <ImageView fitHeight="29.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImageFiles/EmployeesIcon.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                      </Tab>
+                      <Tab text="Inventory">
+                        <content>
+                          <AnchorPane fx:id="InvPane" minHeight="0.0" minWidth="0.0" prefHeight="227.0" prefWidth="380.0">
+                                 <children>
+                                    <ScrollPane layoutX="-2.0" layoutY="280.0" prefHeight="270.0" prefWidth="950.0">
+                                       <content>
+                                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="500.0" prefWidth="951.0">
+                                             <children>
+                                                <TableView fx:id="TableI" minWidth="-Infinity" prefHeight="500.0" prefWidth="950.0" stylesheets="@Styles/AdminStyle.css">
+                                                   <columns>
+                                                      <TableColumn fx:id="inventoryid" minWidth="100.0" prefWidth="130.0" text="Inventory ID" />
+                                                      <TableColumn fx:id="product" minWidth="100.0" prefWidth="130.0" text="Product " />
+                                                      <TableColumn fx:id="quantity" minWidth="100.0" prefWidth="130.0" text="Quantity" />
+                                                      <TableColumn fx:id="productionDate" minWidth="100.0" prefWidth="130.0" text="Production Date" />
+                                                      <TableColumn fx:id="expiryDate" minWidth="100.0" prefWidth="130.0" text="Expiry Date" />
+                                                      <TableColumn fx:id="warehouse" minWidth="100.0" prefWidth="130.0" text="Warehouse " />
+                                                      <TableColumn fx:id="location" minWidth="100.0" prefWidth="164.0" text="Location in Warehouse" />
+                                                   </columns>
+                                                </TableView>
+                                             </children>
+                                          </AnchorPane>
+                                       </content>
+                                    </ScrollPane>
+                                    <TextField layoutX="23.0" layoutY="49.0" promptText="InventoryID" styleClass="textfield-design" stylesheets="@Styles/search.css" />
+                                    <TextField layoutX="23.0" layoutY="108.0" promptText="product name" styleClass="textfield-design" stylesheets="@Styles/search.css" />
+                                    <Label layoutX="24.0" layoutY="21.0" stylesheets="@Styles/search.css" text="InventoryID :" textFill="#bc363a">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="24.0" layoutY="83.0" stylesheets="@Styles/search.css" text="Product :" textFill="#bc363a">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="280.0" layoutY="29.0" stylesheets="@Styles/search.css" text="Location in Warehouse :" textFill="#bc363a">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField layoutX="280.0" layoutY="54.0" prefHeight="27.0" prefWidth="122.0" promptText="location" styleClass="textfield-design" stylesheets="@Styles/search.css" />
+                                    <CheckBox fx:id="QuantityCheck" layoutX="240.0" layoutY="177.0" mnemonicParsing="false" onAction="#handleQCheckAction" />
+                                    <Label layoutX="21.0" layoutY="142.0" stylesheets="@Styles/search.css" text="Quantity :" textFill="#bc363a">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Spinner fx:id="quantityFrom" cache="true" disable="true" editable="true" layoutX="21.0" layoutY="172.0" max="50000" min="0" prefHeight="25.0" prefWidth="94.0" />
+                                    <Spinner fx:id="quantityTo" cache="true" disable="true" editable="true" layoutX="136.0" layoutY="173.0" max="50000" min="0" prefHeight="25.0" prefWidth="94.0" />
+                                    <Label layoutX="123.0" layoutY="175.0" prefWidth="0.0" text="-">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <CheckBox fx:id="PriceCheck" layoutX="239.0" layoutY="239.0" mnemonicParsing="false" onAction="#handlePCheckAction" />
+                                    <Label layoutX="20.0" layoutY="204.0" stylesheets="@Styles/search.css" text="Price:" textFill="#bc363a">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Spinner fx:id="PriceFrom" cache="true" disable="true" editable="true" layoutX="20.0" layoutY="234.0" max="50000" min="0" prefHeight="25.0" prefWidth="94.0" />
+                                    <Spinner fx:id="PriceTo" cache="true" disable="true" editable="true" layoutX="135.0" layoutY="235.0" max="50000" min="0" prefHeight="25.0" prefWidth="94.0" />
+                                    <Label layoutX="122.0" layoutY="237.0" prefWidth="0.0" text="-">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Separator layoutX="265.0" layoutY="15.0" orientation="VERTICAL" prefHeight="250.0" />
+                                    <Label layoutX="280.0" layoutY="94.0" stylesheets="@Styles/search.css" text="Production Date :" textFill="#bc363a">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <DatePicker fx:id="PDateFrom" disable="true" layoutX="278.0" layoutY="124.0" prefHeight="25.0" prefWidth="120.0" promptText="From" />
+                                    <Label layoutX="404.0" layoutY="126.0" text="-">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <DatePicker fx:id="PDateTo" disable="true" layoutX="420.0" layoutY="125.0" prefHeight="25.0" prefWidth="120.0" promptText="To" />
+                                    <CheckBox fx:id="PDateCheck" layoutX="556.0" layoutY="129.0" mnemonicParsing="false" onAction="#handlePDateCheckAction" />
+                                    <Label layoutX="280.0" layoutY="156.0" stylesheets="@Styles/search.css" text="Expiry Date:" textFill="#bc363a">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <DatePicker fx:id="EDateFrom" disable="true" layoutX="278.0" layoutY="186.0" prefHeight="25.0" prefWidth="120.0" promptText="From" />
+                                    <Label layoutX="404.0" layoutY="188.0" text="-">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <DatePicker fx:id="EDateTo" disable="true" layoutX="420.0" layoutY="187.0" prefHeight="25.0" prefWidth="120.0" promptText="To" />
+                                    <CheckBox fx:id="EDateCheck" layoutX="556.0" layoutY="191.0" mnemonicParsing="false" onAction="#handleEDateCheckAction" />
+                                    <Button layoutX="597.0" layoutY="230.0" mnemonicParsing="false" stylesheets="@Styles/search.css" text="Update" textFill="#d8d3ce">
+                                       <styleClass>
+                                          <String fx:value="buttonAdd" />
+                                          <String fx:value="button-design" />
+                                       </styleClass>
+                                    </Button>
+                                    <Button layoutX="598.0" layoutY="186.0" mnemonicParsing="false" stylesheets="@Styles/search.css" text="Search" textFill="#d8d3ce">
+                                       <styleClass>
+                                          <String fx:value="buttonAdd" />
+                                          <String fx:value="button-design" />
+                                       </styleClass>
+                                    </Button>
+                                    <Button fx:id="refreashI" layoutX="896.0" layoutY="243.0" mnemonicParsing="false" onAction="#refreashI" prefHeight="20.0" prefWidth="41.0" stylesheets="@Styles/search.css">
+                                       <styleClass>
+                                          <String fx:value="button-RefreshDesign" />
+                                          <String fx:value="button-design" />
+                                       </styleClass>
+                                       <graphic>
+                                          <ImageView fitHeight="23.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@ImageFiles/refresh.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Button>
+                                    <Button layoutX="13.0" layoutY="551.0" mnemonicParsing="false" onAction="#deleteI" stylesheets="@Styles/search.css" text="Delete" textFill="#d8d3ce">
+                                       <styleClass>
+                                          <String fx:value="buttonAdd" />
+                                          <String fx:value="button-design" />
+                                       </styleClass>
+                                    </Button>
+                                    <Button layoutX="850.0" layoutY="5.0" mnemonicParsing="false" onAction="#openInventoryAddPopUp" stylesheets="@Styles/search.css" text="Add Inventory" textFill="#d8d3ce">
+                                       <styleClass>
+                                          <String fx:value="buttonAdd" />
+                                          <String fx:value="button-design" />
+                                       </styleClass>
+                                    </Button>
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                           <graphic>
+                              <ImageView fitHeight="29.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImageFiles/inventoryIcon.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                      </Tab>
+                    </tabs>
+                  </TabPane>
+               </children></AnchorPane>
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thestore.PrimaryScreenControl">
+   <left>
+      <AnchorPane fx:id="LeftLocation" prefHeight="600.0" prefWidth="150.0" stylesheets="@Styles/PrimaryScreenStyle.css" BorderPane.alignment="CENTER">
+         <children>
+            <Button graphicTextGap="1.0" layoutX="12.0" layoutY="605.0" mnemonicParsing="false" onAction="#switchToScene1" prefHeight="31.0" prefWidth="32.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView cache="true" fitHeight="38.0" fitWidth="27.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageFiles/logoutIcon.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <VBox fx:id="ButtBox" layoutY="108.0" prefHeight="368.0" prefWidth="150.0">
+               <children>
+                  <Button graphicTextGap="1.0" mnemonicParsing="false" onAction="#page1" prefHeight="46.0" prefWidth="150.0" styleClass="buttton">
+                     <graphic>
+                        <StackPane alignment="CENTER_RIGHT" depthTest="DISABLE" nodeOrientation="RIGHT_TO_LEFT" prefHeight="35.0" prefWidth="49.0">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <children>
+                              <ImageView cache="true" fitHeight="28.0" fitWidth="51.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImageFiles/EmployeesIcon.png" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER_RIGHT" prefHeight="24.0" prefWidth="100.0" styleClass="my-textfield" text="Employees" StackPane.alignment="CENTER_LEFT">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <StackPane.margin>
+                                    <Insets />
+                                 </StackPane.margin>
+                              </Label>
+                           </children>
+                        </StackPane>
+                     </graphic>
+                  </Button>
+                  <Button graphicTextGap="1.0" mnemonicParsing="false" onAction="#page2" prefHeight="46.0" prefWidth="150.0">
+                     <graphic>
+                        <StackPane alignment="CENTER_RIGHT" depthTest="DISABLE" nodeOrientation="RIGHT_TO_LEFT" prefHeight="35.0" prefWidth="49.0">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <children>
+                              <ImageView cache="true" fitHeight="28.0" fitWidth="51.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImageFiles/WarehousesIcon.png" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER_RIGHT" prefHeight="24.0" prefWidth="100.0" styleClass="my-textfield" text="Warehouses" StackPane.alignment="CENTER_LEFT">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <StackPane.margin>
+                                    <Insets />
+                                 </StackPane.margin>
+                              </Label>
+                           </children>
+                        </StackPane>
+                     </graphic>
+                  </Button>
+                  <Button graphicTextGap="1.0" mnemonicParsing="false" onAction="#page3" prefHeight="46.0" prefWidth="150.0" styleClass="buttton">
+                     <graphic>
+                        <StackPane alignment="CENTER_RIGHT" depthTest="DISABLE" nodeOrientation="RIGHT_TO_LEFT" prefHeight="35.0" prefWidth="49.0">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <children>
+                              <ImageView cache="true" fitHeight="28.0" fitWidth="51.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImageFiles/inventoryIcon.png" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER_RIGHT" prefHeight="24.0" prefWidth="100.0" styleClass="my-textfield" text="Inventories" StackPane.alignment="CENTER_LEFT">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <StackPane.margin>
+                                    <Insets />
+                                 </StackPane.margin>
+                              </Label>
+                           </children>
+                        </StackPane>
+                     </graphic>
+                  </Button>
+                  <Button graphicTextGap="1.0" mnemonicParsing="false" onAction="#page4" prefHeight="46.0" prefWidth="150.0" styleClass="buttton">
+                     <graphic>
+                        <StackPane alignment="CENTER_RIGHT" depthTest="DISABLE" nodeOrientation="RIGHT_TO_LEFT" prefHeight="35.0" prefWidth="49.0">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <children>
+                              <ImageView cache="true" fitHeight="28.0" fitWidth="51.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImageFiles/ProductsIcon.png" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER_RIGHT" prefHeight="24.0" prefWidth="100.0" styleClass="my-textfield" text="Products" StackPane.alignment="CENTER_LEFT">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <StackPane.margin>
+                                    <Insets />
+                                 </StackPane.margin>
+                              </Label>
+                           </children>
+                        </StackPane>
+                     </graphic>
+                  </Button>
+                  <Button graphicTextGap="1.0" mnemonicParsing="false" onAction="#page5" prefHeight="46.0" prefWidth="150.0" styleClass="buttton">
+                     <graphic>
+                        <StackPane alignment="CENTER_RIGHT" depthTest="DISABLE" nodeOrientation="RIGHT_TO_LEFT" prefHeight="35.0" prefWidth="49.0">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <children>
+                              <ImageView cache="true" fitHeight="28.0" fitWidth="51.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImageFiles/OrderIcon.png" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER_RIGHT" prefHeight="24.0" prefWidth="100.0" styleClass="my-textfield" text="Orders" StackPane.alignment="CENTER_LEFT">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <StackPane.margin>
+                                    <Insets />
+                                 </StackPane.margin>
+                              </Label>
+                           </children>
+                        </StackPane>
+                     </graphic>
+                  </Button>
+                  <Button graphicTextGap="1.0" mnemonicParsing="false" onAction="#page6" prefHeight="46.0" prefWidth="150.0">
+                     <graphic>
+                        <StackPane alignment="CENTER_RIGHT" depthTest="DISABLE" nodeOrientation="RIGHT_TO_LEFT" prefHeight="35.0" prefWidth="49.0">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <children>
+                              <ImageView cache="true" fitHeight="28.0" fitWidth="51.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImageFiles/PurchaseIcon.png" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER_RIGHT" prefHeight="24.0" prefWidth="100.0" styleClass="my-textfield" text="Purchase Orders" StackPane.alignment="CENTER_LEFT">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <StackPane.margin>
+                                    <Insets />
+                                 </StackPane.margin>
+                              </Label>
+                           </children>
+                        </StackPane>
+                     </graphic>
+                  </Button>
+                  <Button graphicTextGap="1.0" mnemonicParsing="false" onAction="#page7" prefHeight="46.0" prefWidth="150.0">
+                     <graphic>
+                        <StackPane alignment="CENTER_RIGHT" depthTest="DISABLE" nodeOrientation="RIGHT_TO_LEFT" prefHeight="35.0" prefWidth="49.0">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <children>
+                              <ImageView cache="true" fitHeight="28.0" fitWidth="51.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImageFiles/CustomersIcon.png" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER_RIGHT" prefHeight="24.0" prefWidth="100.0" styleClass="my-textfield" text="Customers" StackPane.alignment="CENTER_LEFT">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <StackPane.margin>
+                                    <Insets />
+                                 </StackPane.margin>
+                              </Label>
+                           </children>
+                        </StackPane>
+                     </graphic>
+                  </Button>
+                  <Button graphicTextGap="1.0" mnemonicParsing="false" onAction="#page8" prefHeight="46.0" prefWidth="150.0">
+                     <graphic>
+                        <StackPane alignment="CENTER_RIGHT" depthTest="DISABLE" nodeOrientation="RIGHT_TO_LEFT" prefHeight="35.0" prefWidth="49.0">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <children>
+                              <ImageView cache="true" fitHeight="28.0" fitWidth="51.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImageFiles/SuppliersIcon.png" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER_RIGHT" prefHeight="24.0" prefWidth="100.0" styleClass="my-textfield" text="Suppliers" StackPane.alignment="CENTER_LEFT">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <StackPane.margin>
+                                    <Insets />
+                                 </StackPane.margin>
+                              </Label>
+                           </children>
+                        </StackPane>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+            <ImageView fitHeight="77.0" fitWidth="78.0" layoutX="16.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageFiles/PIcon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="600.0" prefWidth="894.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane fx:id="UpLocation" prefHeight="30.0" prefWidth="950.0" stylesheets="@Styles/PrimaryScreenStyle.css">
+               <children>
+                  <Label fx:id="UserName" layoutX="715.0" layoutY="7.5" styleClass="my-textfield" text="UserName (Admin)" />
+                  <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="687.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ImageFiles/UserName2.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+            <AnchorPane fx:id="RightLocation" layoutY="30.0" prefHeight="640.0" prefWidth="950.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

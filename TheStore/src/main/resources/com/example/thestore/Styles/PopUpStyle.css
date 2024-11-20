@@ -1,0 +1,116 @@
+
+
+
+/* Close button styling */
+.button-close {
+    -fx-background-color: #E74C3C;
+    -fx-text-fill: #ECF0F1;
+    -fx-font-size: 16px;
+    -fx-padding: 5 10;
+    -fx-border-radius: 8px;
+    -fx-cursor: hand;
+}
+
+/* Hover effect for the close button */
+.button-close:hover {
+    -fx-background-color: #C0392B;
+}
+
+/* "Done" button styling */
+.button-done {
+    -fx-background-color: #2ECC71; /* Green color for "Done" button */
+    -fx-text-fill: #ECF0F1;
+    -fx-font-size: 16px;
+    -fx-padding: 5 10;
+    -fx-border-radius: 8px;
+    -fx-cursor: hand;
+}
+
+/* Hover effect for the "Done" button */
+.button-done:hover {
+    -fx-background-color: #27AE60; /* Darker green color on hover */
+}
+
+.my-pane {
+    -fx-border-color: rgba(255, 179, 31, 0.44); /* Border color */
+    -fx-border-radius:2px; /* Border radius for rounded corners */
+}
+
+
+/* Shadow effect for depth */
+
+
+/* Hover effect for interactivity */
+.my-pane:hover {
+    -fx-background-color: #e0e0e0; /* Lighter background on hover */
+}
+
+
+
+/* Content text styling */
+.text-content {
+    -fx-font-size: 14px; /* Content font size */
+    -fx-text-fill: #666666; /* Content text color */
+}
+
+/* Button styling */
+.button-style {
+    -fx-background-color: #3498db; /* Button background color */
+    -fx-text-fill: #ffffff; /* Button text color */
+    -fx-font-size: 14px; /* Button font size */
+    -fx-padding: 8px 16px; /* Padding inside the button */
+    -fx-border-radius: 5px; /* Button border radius */
+}
+
+/* Hover effect for buttons */
+.button-style:hover {
+    -fx-background-color: #2980b9; /* Darker background on hover */
+}
+
+#interiar{
+    -fx-background-color: #ecf2f5;
+    -fx-background-radius: 20;
+}
+.interiar{
+    -fx-background-color: #b0bec7;
+    -fx-background-radius: 20;
+}
+#smallInter{
+    -fx-background-color: rgba(176, 166, 166, 0.28);
+    -fx-background-radius: 20;
+}
+
+#popUpPane{
+    -fx-background-color: linear-gradient(from 0% 0% to 110% 100% , white 30%, #e0e0e0 );
+
+}
+
+.NextButton {
+    -fx-background-color: #0d5287;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 2.8px 14px;
+    -fx-position: relative;
+}
+
+.NextButton:hover {
+    -fx-background-color: #0585e8;
+}
+
+
+#TopBar {
+    -fx-background-color: #bc363a;
+}
+
+#settingLabel {
+    -fx-background-color: transparent;
+    -fx-alignment: CENTER;
+    -fx-font-size: 24;
+    -fx-text-fill: #d8d3ce;
+    -fx-font-weight: bold;
+}
+
+
+
+
+

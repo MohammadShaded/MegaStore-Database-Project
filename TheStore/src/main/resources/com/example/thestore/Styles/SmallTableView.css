@@ -1,0 +1,51 @@
+
+.table-view .column-header-background{
+    -fx-background-color: #e04449;
+    -fx-background-insets: 0 0 15 0;
+}
+.table-view .column-header, .table-view .filler{
+    -fx-size:50px;
+    -fx-border-width: 0 20 15 0;
+    -fx-background-color:transparent;
+
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #d8d3ce ;
+    -fx-font-size: 13px;
+}
+/* ScrollPane with vertical scrollbar */
+.scroll-pane .scroll-bar:vertical {
+    -fx-background-color: #f1f1f1; /* color of the scrollbar track */
+}
+
+.scroll-pane .scroll-bar:vertical .increment-button,
+.scroll-pane .scroll-bar:vertical .decrement-button {
+    -fx-background-color: #C0392B; /* color of the scrollbar buttons */
+}
+
+.scroll-pane .scroll-bar:vertical .thumb {
+    -fx-background-color: #c94a4e; /* color of the scrollbar thumb */
+}
+
+.scroll-pane .scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #333; /* color of the scrollbar thumb on hover */
+}
+
+/* ScrollPane with horizontal scrollbar */
+.scroll-pane .scroll-bar:horizontal {
+    -fx-background-color: #f1f1f1; /* color of the scrollbar track */
+}
+
+.scroll-pane .scroll-bar:horizontal .increment-button,
+.scroll-pane .scroll-bar:horizontal .decrement-button {
+    -fx-background-color: #C0392B; /* color of the scrollbar buttons */
+}
+
+.scroll-pane .scroll-bar:horizontal .thumb {
+    -fx-background-color: #c94a4e; /* color of the scrollbar thumb */
+}
+
+.scroll-pane .scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: #333; /* color of the scrollbar thumb on hover */
+}

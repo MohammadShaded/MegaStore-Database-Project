@@ -1,0 +1,18 @@
+
+.root{
+    -fx-background-color: #ecf2f5;
+    -fx-background-radius: 20;
+}
+/* yourStylesheet.css */
+
+#NextButton {
+    -fx-background-color: #0d5287;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 2.8px 14px;
+    -fx-position: relative;
+}
+
+#NextButton:hover {
+    -fx-background-color: #0585e8;
+}

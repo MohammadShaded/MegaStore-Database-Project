@@ -1,0 +1,108 @@
+
+m
+java:S1192"WDefine a constant instead of duplicating this literal " deleted successfully." 9 times.(´…±Ö
+g	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ’ìÈ
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®»é¢
+g	java:S117ß"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦İôö
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é…™Ğøÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à‰—
+k
+java:S2095Ñ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÁÏö…üÿÿÿÿ
+k
+java:S2095¸"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Şå¶ùÿÿÿÿ
+j
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ
+k
+java:S2095¥"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÁÏö…üÿÿÿÿ
+_
+java:S2095·"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ
+^
+java:S2095-"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ
+j
+java:S2095|"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÁÏö…üÿÿÿÿ
+k
+java:S2095¼"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÁÏö…üÿÿÿÿ
+k
+java:S2095Œ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ
+j
+java:S2095."OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Şå¶ùÿÿÿÿ
+_
+java:S2095ƒ"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ
+_
+java:S2095á"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ
+e
+java:S2095K"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(èÒÏâ
+j
+java:S20952"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÁÏö…üÿÿÿÿ
+k
+java:S2095‘"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÁÏö…üÿÿÿÿ
+_
+java:S2095Î"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ
+j
+java:S2095O"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ª²óûÿÿÿÿ
+^
+java:S2095F"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ
+j
+java:S2095G"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Şå¶ùÿÿÿÿ
+^
+java:S2095y"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ
+j
+java:S2095g"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÁÏö…üÿÿÿÿ
+_
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ
+j
+java:S2095S"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÁÏö…üÿÿÿÿ
+^
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ
+_
+java:S2095¢"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ
+^
+java:S2095d"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ
+k
+java:S2095ê"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(€´´Àÿÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(„×ò
+L
+java:S6437"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+@	java:S106"+Replace this use of System.out by a logger.(´…±Ö
+L
+java:S6437-"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+@	java:S1066"+Replace this use of System.out by a logger.(µªì²
+V	java:S1255"<This block of commented-out lines of code should be removed.(‘®Úâşÿÿÿÿ
+L
+java:S6437F"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+E	java:S106W"+Replace this use of System.out by a logger.(Èêë¬ùÿÿÿÿ
+V	java:S125V"<This block of commented-out lines of code should be removed.(‘®Úâşÿÿÿÿ
+L
+java:S6437d"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+@	java:S106k"+Replace this use of System.out by a logger.(ş¹»
+V	java:S125j"<This block of commented-out lines of code should be removed.(‘®Úâşÿÿÿÿ
+L
+java:S6437y"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+F	java:S106€"+Replace this use of System.out by a logger.(’º¬ûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(‘®Úâşÿÿÿÿ
+M
+java:S6437"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+A	java:S106•"+Replace this use of System.out by a logger.(„ôÒ‹
+W	java:S125”"<This block of commented-out lines of code should be removed.(‘®Úâşÿÿÿÿ
+M
+java:S6437¢"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+F	java:S106©"+Replace this use of System.out by a logger.(ŸƒÈıÿÿÿÿ
+W	java:S125¨"<This block of commented-out lines of code should be removed.(‘®Úâşÿÿÿÿ
+M
+java:S6437·"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+A	java:S106À"+Replace this use of System.out by a logger.(·ÄÙş
+W	java:S125¿"<This block of commented-out lines of code should be removed.(‘®Úâşÿÿÿÿ
+M
+java:S6437Î"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+F	java:S106Õ"+Replace this use of System.out by a logger.(ô£ÆŠûÿÿÿÿ
+W	java:S125Ô"<This block of commented-out lines of code should be removed.(‘®Úâşÿÿÿÿ
+M
+java:S6437á"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+F	java:S106õ"+Replace this use of System.out by a logger.(°Ôã¤ùÿÿÿÿ
+A	java:S106÷"+Replace this use of System.out by a logger.(ª‡Òé
+M
+java:S6437ƒ"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+F	java:S106—"+Replace this use of System.out by a logger.(°Ôã¤ùÿÿÿÿ
+A	java:S106™"+Replace this use of System.out by a logger.(ª‡Òé

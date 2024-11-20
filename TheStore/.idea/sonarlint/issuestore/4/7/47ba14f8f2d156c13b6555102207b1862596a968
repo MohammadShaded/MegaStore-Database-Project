@@ -1,0 +1,186 @@
+
+g
+java:S1192Ñ"KDefine a constant instead of duplicating this literal "expirydate" 5 times.(°ÓÚ¥úÿÿÿÿ
+f
+java:S1192Ò"ODefine a constant instead of duplicating this literal "productiondate" 6 times.(’ƒî
+d
+java:S1192ì"HDefine a constant instead of duplicating this literal "Unknown" 3 times.(Éˆú¿üÿÿÿÿ
+c
+java:S1192Ÿ"LDefine a constant instead of duplicating this literal "inventoryid" 4 times.(Á¼ò¡
+b
+java:S1192…"FDefine a constant instead of duplicating this literal "pname" 6 times.(Ñà‹Äúÿÿÿÿ
+f
+java:S1192Ô"ODefine a constant instead of duplicating this literal "warehouse_name" 5 times.(ùç¼ë
+d
+java:S1192«"MDefine a constant instead of duplicating this literal "company_name" 3 times.(Ñ´À´
+]
+java:S1192É"FDefine a constant instead of duplicating this literal "cname" 3 times.(¨Ó¥
+u
+java:S1192–"YDefine a constant instead of duplicating this literal "SELECT * FROM inventoryt" 3 times.(ôË˜‚ÿÿÿÿÿ
+e
+java:S1192Õ"IDefine a constant instead of duplicating this literal "quantity" 6 times.(†Á¦Òùÿÿÿÿ
+]
+java:S1192Í"FDefine a constant instead of duplicating this literal "Other" 4 times.(™Û‚‡
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ‚³­
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ‚³­
+g	java:S117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ıÎÑ
+l	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øºáşøÿÿÿÿ
+f	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†âR
+l	java:S117½"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À€·Üûÿÿÿÿ
+l	java:S117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÅ‘ûÿÿÿÿ
+l	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘º«³ıÿÿÿÿ
+l	java:S117İ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ±Õâûÿÿÿÿ
+g	java:S117Ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Ó”´
+g	java:S117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Îúº
+f	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âøÆ,
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı¿Ğ½
+g	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„´
+g	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Ê’ï
+g	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ôû²
+g	java:S117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯âíñ
+g	java:S117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯âíñ
+l	java:S117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¯áøÿÿÿÿ
+l	java:S117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üí™¦ÿÿÿÿÿ
+g	java:S117ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸Ûÿ 
+g	java:S117ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸Ûÿ 
+l	java:S117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¯áøÿÿÿÿ
+l	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üí™¦ÿÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷´ó¦ùÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷´ó¦ùÿÿÿÿ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷´ó¦ùÿÿÿÿ
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´••ë
+g	java:S117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´••ë
+g	java:S117é"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Ó”´
+g	java:S117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Îúº
+l	java:S117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¯Ü¶şÿÿÿÿ
+g	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿õıÀ
+g	java:S117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šî¤
+g	java:S117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šî¤
+g	java:S117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šî¤
+l	java:S117ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äç‰Éúÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à‰—
+j
+java:S2095â"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8µØ“ò1
+f
+java:S2095’"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ8¶Ø“ò1
+f
+java:S2095¨"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ8·Ø“ò1
+j
+java:S2095·"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8¹Ø“ò1
+f
+java:S2095‚"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ8ºØ“ò1
+j
+java:S2095í"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8»Ø“ò1
+j
+java:S2095ƒ"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8¼Ø“ò1
+j
+java:S2095ˆ"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8½Ø“ò1
+j
+java:S2095´"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8¾Ø“ò1
+f
+java:S2095ì"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ8¿Ø“ò1
+f
+java:S2095¶"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ8ÀØ“ò1
+f
+java:S2095£"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ8ÂØ“ò1
+f
+java:S2095³"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ8ÃØ“ò1
+j
+java:S2095Ê"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ÄØ“ò1
+f
+java:S2095‡"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ8ÅØ“ò1
+i
+java:S2095~"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ÆØ“ò1
+f
+java:S2095î"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ8ÆØ“ò1
+j
+java:S2095¤"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ÇØ“ò1
+j
+java:S2095©"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ÈØ“ò1
+j
+java:S2095Â"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ÉØ“ò1
+j
+java:S2095“"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ÊØ“ò1
+e
+java:S2095}"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ8ËØ“ò1
+f
+java:S2095É"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ8ÌØ“ò1
+i
+java:S2095U"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ÍØ“ò1
+j
+java:S2095ï"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ÎØ“ò1
+j
+java:S2095æ"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ĞØ“ò1
+f
+java:S2095á"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ8ÑØ“ò1
+e
+java:S2095T"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ8ÓØ“ò1
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ÔØ“ò1
+e
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ8ÕØ“ò1
+f
+java:S2095Á"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ8ÖØ“ò1
+f
+java:S2095å"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ8ÖØ“ò1
+O
+java:S1118":Add a private constructor to hide the implicit public one.(›¿˜X
+H
+java:S1135"2Complete the task associated to this TODO comment.(ÌÒè‘
+L
+java:S6437"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+H
+java:S1135O"2Complete the task associated to this TODO comment.(ÌÒè‘
+L
+java:S6437T"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+H
+java:S1135x"2Complete the task associated to this TODO comment.(ÌÒè‘
+L
+java:S6437}"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+M
+java:S6437£"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+M
+java:S6437Á"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+M
+java:S6437á"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+W	java:S125î"<This block of commented-out lines of code should be removed.(êŒ®šøÿÿÿÿ
+M
+java:S6437‡"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+M
+java:S6437¨"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+M
+java:S6437É"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+M
+java:S6437î"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+M
+java:S6437’"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+i
+java:S6204¼"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
+M
+java:S6437å"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+i
+java:S6204‰"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
+I
+java:S1168¬"+Return an empty collection instead of null.(¥¹ï8–İ“ò1
+M
+java:S6437³"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+A	java:S106×"+Replace this use of System.out by a logger.(ö³²£
+I
+java:S1168å"+Return an empty collection instead of null.(¥¹ï8Ş“ò1
+M
+java:S6437ì"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+W	java:S125ù"<This block of commented-out lines of code should be removed.(êŒ®šøÿÿÿÿ
+i
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
+I
+java:S1168¯"+Return an empty collection instead of null.(¥¹ï8âŞ“ò1
+M
+java:S6437¶"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+W	java:S125Ã"<This block of commented-out lines of code should be removed.(êŒ®šøÿÿÿÿ
+i
+java:S6204Ø"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
+R	java:S125ì"<This block of commented-out lines of code should be removed.(ñ»ş
+I
+java:S1168ú"+Return an empty collection instead of null.(¥¹ï8¬ß“ò1
+M
+java:S6437‚"6Revoke and change this password, as it is compromised.(…ÉÖÌ

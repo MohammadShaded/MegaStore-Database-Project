@@ -1,0 +1,35 @@
+/* SplashStyle.css */
+
+/* Root AnchorPane styling */
+.root {
+    -fx-background-color: #B21217; /* Set background color */
+}
+
+/* Styling for the "loading..." label */
+#lblLoading {
+    -fx-font-size: 16px;
+    -fx-text-fill: #d8d3ce; /* Set text color */
+}
+
+
+ProgressBar {
+    -fx-accent: #3498db; /* Set progress bar color */
+    -fx-background-color: transparent; /* Make background transparent */
+    -fx-background-insets: 0; /* Remove default background insets */
+}
+
+/* Modify the track (background of the ProgressBar) */
+.progress-bar .track {
+    -fx-background-color: #d8d3ce; /* Set track color */
+}
+
+/* Modify the bar (foreground of the ProgressBar) */
+.progress-bar .bar {
+    -fx-background-color: #FFB31F; /* Set bar color */
+    -fx-background-insets: 0; /* Remove default bar insets */
+}
+
+/* Add glow effect to the bar */
+.progress-bar .bar:indeterminate {
+    -fx-effect: dropshadow(three-pass-box, rgba(46, 204, 113, 0.8), 10, 0, 0, 0); /* Add drop shadow effect */
+}

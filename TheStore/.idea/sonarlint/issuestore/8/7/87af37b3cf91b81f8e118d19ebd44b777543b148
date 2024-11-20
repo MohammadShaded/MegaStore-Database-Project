@@ -1,0 +1,16 @@
+
+f	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Òñª
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…²Ü£ıÿÿÿÿ
+e	java:S116!"PRename this field "Slide" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õë×Ø
+n	java:S116&"YRename this field "PreviousButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ’“
+i	java:S116("URename this field "NextButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßß¾
+i	java:S116*"ORename this field "ONew" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÀÑÁøÿÿÿÿ
+œ
+java:S1186n"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­…–ˆùÿÿÿÿ
+@
+java:S1197!"*Move the array designators [] to the type.(õë×Ø
+E
+java:S1197""*Move the array designators [] to the type.(×÷£Üøÿÿÿÿ
+E	java:S106B"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ
+U
+java:S1117Z":Rename "loader" which hides the field declared at line 34.(Í•êºıÿÿÿÿ

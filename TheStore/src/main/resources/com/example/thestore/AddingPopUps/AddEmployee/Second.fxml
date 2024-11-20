@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="198.0" prefWidth="368.0" stylesheets="@../../Styles/SmallPopStyle.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thestore.SlidesControllers.EmployeeSlidesControl">
+   <children>
+      <Label layoutX="15.0" layoutY="73.0" stylesheets="@../../Styles/search.css" text="Hire Date:" textFill="#bc363a">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="HireDate" layoutX="15.0" layoutY="99.0" prefHeight="25.0" prefWidth="120.0" promptText="HireDate" />
+      <Label layoutX="15.0" layoutY="14.0" stylesheets="@../../Styles/search.css" text="E-mail Address:" textFill="#bc363a">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Email" layoutX="15.0" layoutY="39.0" prefHeight="27.0" prefWidth="122.0" promptText="Value" styleClass="textfield-design" stylesheets="@../../Styles/search.css" />
+      <Label layoutX="15.0" layoutY="132.0" stylesheets="@../../Styles/search.css" text="Salary:" textFill="#bc363a">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Spinner fx:id="salary" cache="true" editable="true" layoutX="15.0" layoutY="159.0" max="50000" min="0" prefHeight="25.0" prefWidth="94.0" />
+      <Label layoutX="188.0" layoutY="14.0" stylesheets="@../../Styles/search.css" text="Gender:" textFill="#bc363a">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Male" layoutX="186.0" layoutY="44.0" mnemonicParsing="false" text="Male">
+         <toggleGroup>
+            <ToggleGroup fx:id="gb" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="Female" layoutX="247.0" layoutY="44.0" mnemonicParsing="false" text="Female" toggleGroup="$gb" />
+      <Label layoutX="188.0" layoutY="73.0" stylesheets="@../../Styles/search.css" text="Employee ID:" textFill="#bc363a">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ID" layoutX="187.0" layoutY="98.0" prefHeight="27.0" prefWidth="122.0" promptText="ID" styleClass="textfield-design" stylesheets="@../../Styles/search.css" />
+      <Label layoutX="188.0" layoutY="132.0" stylesheets="@../../Styles/search.css" text="Phone number:" textFill="#bc363a">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="phone" layoutX="188.0" layoutY="158.0" prefHeight="27.0" prefWidth="142.0" promptText="Phone" styleClass="textfield-design" stylesheets="@../../Styles/search.css" />
+      <Separator layoutX="160.0" layoutY="15.0" orientation="VERTICAL" prefHeight="170.0" />
+   </children>
+</AnchorPane>

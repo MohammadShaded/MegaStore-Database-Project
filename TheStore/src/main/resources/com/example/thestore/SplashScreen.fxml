@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="500.0" stylesheets="@Styles/SplashStyle.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thestore.SplashScreenControl">
+    <children>
+        <Label fx:id="lblLoading" layoutX="6.0" layoutY="420.0" prefHeight="27.0" prefWidth="86.0" text="loading..." AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="308.0" />
+        <ProgressBar fx:id="progressBar" layoutY="422.0" prefHeight="4.0" prefWidth="500.0" progress="0.32" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <ImageView fitHeight="317.0" fitWidth="318.0" layoutX="92.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ImageFiles/SplashLogo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="12.0" layoutY="329.0" prefHeight="17.0" prefWidth="305.0" text="© 2023 MegaStore Inc. All Rights Reserved." textFill="#d6d2ceb2" />
+      <Label layoutX="15.0" layoutY="364.0" prefHeight="16.0" prefWidth="305.0" text="Management. Dedicated to Customer Satisfaction. Created by" textFill="#d6d2ceb2">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="350.0" prefHeight="17.0" prefWidth="293.0" text="Empowering Whole Sale Excellence with Strategic Inventory" textFill="#d6d2ceb2">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="377.0" prefHeight="16.0" prefWidth="364.0" text="Mohammad Shadid, Nassar Harashi. Email: MegaaStoree404@gmail.com" textFill="#d6d2ceb2">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

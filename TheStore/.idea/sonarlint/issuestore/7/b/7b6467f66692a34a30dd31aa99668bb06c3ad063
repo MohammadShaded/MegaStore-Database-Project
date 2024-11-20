@@ -1,0 +1,191 @@
+
+_
+java:S6208é"CMerge the previous cases into this one using comma-separated label.(–æ–«üÿÿÿÿ
+_
+java:S6208í"CMerge the previous cases into this one using comma-separated label.(ƒÆ´·úÿÿÿÿ
+Z
+java:S6208ñ"CMerge the previous cases into this one using comma-separated label.(°›ÿ¢
+b
+java:S1192ƒ"FDefine a constant instead of duplicating this literal "wname" 3 times.(ÏÁŒ”ýÿÿÿÿ
+g
+java:S1192–"KDefine a constant instead of duplicating this literal "first_name" 3 times.(“‹Ùœüÿÿÿÿ
+a
+java:S1192—"JDefine a constant instead of duplicating this literal "last_name" 3 times.(á¾«®
+e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÃ§<
+k	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º‚å•ÿÿÿÿÿ
+k	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö‘Ô÷þÿÿÿÿ
+k	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ÃÍ²ýÿÿÿÿ
+f	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â…ô¤
+l	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÐÔ‡ýÿÿÿÿ
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Ç‡
+l	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Ììšúÿÿÿÿ
+g	java:S117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸þ§–
+g	java:S117Ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÎÑî
+g	java:S117Ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÎÑî
+g	java:S117Ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Ú“Æ
+l	java:S117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë—ÓÇýÿÿÿÿ
+g	java:S117Ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦·¦¦
+g	java:S117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤‚µ¨
+g	java:S117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·Éå®
+f	java:S117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÌ•
+g	java:S117Ž"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”œ†ý
+l	java:S117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÌØªûÿÿÿÿ
+l	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( …ÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à‰—
+k
+java:S2095á"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å›çêûÿÿÿÿ
+^
+java:S2095«"HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+^
+java:S2095Ã"HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+j
+java:S2095\"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(î¨»Ñüÿÿÿÿ
+k
+java:S2095¥"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(î¨»Ñüÿÿÿÿ
+k
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(î¨»Ñüÿÿÿÿ
+]
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+^
+java:S2095‹"HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+^
+java:S2095Þ"HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+k
+java:S2095Æ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å›çêûÿÿÿÿ
+^
+java:S2095«"HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+^
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+k
+java:S2095Œ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(î¨»Ñüÿÿÿÿ
+^
+java:S2095»"HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+k
+java:S2095Ê"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å›çêûÿÿÿÿ
+k
+java:S2095ö"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(î¨»Ñüÿÿÿÿ
+j
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(î¨»Ñüÿÿÿÿ
+^
+java:S2095Ç"HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+k
+java:S2095¬"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(î¨»Ñüÿÿÿÿ
+k
+java:S2095û"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å›çêûÿÿÿÿ
+_
+java:S2095¬"HUse try-with-resources or close this "Connection" in a "finally" clause.(…ÉÖÌ
+k
+java:S2095¯"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å›çêûÿÿÿÿ
+k
+java:S2095¯"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÇËóØþÿÿÿÿ
+^
+java:S2095¬"HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+^
+java:S2095õ"HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+k
+java:S2095¯"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(å›çêûÿÿÿÿ
+k
+java:S2095Ù"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(î¨»Ñüÿÿÿÿ
+]
+java:S2095["HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+]
+java:S2095s"HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+^
+java:S2095¤"HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+j
+java:S2095t"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(î¨»Ñüÿÿÿÿ
+j
+java:S2095D"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(î¨»Ñüÿÿÿÿ
+^
+java:S2095Ø"HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+k
+java:S2095¼"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(î¨»Ñüÿÿÿÿ
+^
+java:S2095ø"HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+]
+java:S2095C"HUse try-with-resources or close this "Connection" in a "finally" clause.(‡¦£
+U
+java:S1118":Add a private constructor to hide the implicit public one.(êà™¿ùÿÿÿÿ
+b	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â…@
+L
+java:S18541"6Remove this useless assignment to local variable "ss".(Çžõâ
+K
+java:S6437"6Revoke and change this password, as it is compromised.(‡¦£
+=
+java:S14811"'Remove this unused "ss" local variable.(Çžõâ
+h	java:S100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º‚å•ÿÿÿÿÿ
+K
+java:S6437C"6Revoke and change this password, as it is compromised.(‡¦£
+h	java:S100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ÃÍ²ýÿÿÿÿ
+K
+java:S6437["6Revoke and change this password, as it is compromised.(‡¦£
+c	java:S100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â…ô¤
+K
+java:S6437s"6Revoke and change this password, as it is compromised.(‡¦£
+i	java:S100„"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÐÔ‡ýÿÿÿÿ
+L
+java:S6437‹"6Revoke and change this password, as it is compromised.(‡¦£
+d	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Ç‡
+L
+java:S6437¤"6Revoke and change this password, as it is compromised.(‡¦£
+d	java:S100´"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸þ§–
+L
+java:S6437»"6Revoke and change this password, as it is compromised.(‡¦£
+d	java:S100Ñ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÎÑî
+L
+java:S6437Ø"6Revoke and change this password, as it is compromised.(‡¦£
+i	java:S100î"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÑ«‰ùÿÿÿÿ
+L
+java:S6437õ"6Revoke and change this password, as it is compromised.(‡¦£
+d	java:S100ˆ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÃñÎ
+L
+java:S6437"6Revoke and change this password, as it is compromised.(‡¦£
+i	java:S100¢"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÆæ þÿÿÿÿ
+L
+java:S6437«"6Revoke and change this password, as it is compromised.(‡¦£
+R
+java:S6437Á"6Revoke and change this password, as it is compromised.(×õ¨Õýÿÿÿÿ
+R
+java:S6437Ô"6Revoke and change this password, as it is compromised.(×õ¨Õýÿÿÿÿ
+R
+java:S6437é"6Revoke and change this password, as it is compromised.(×õ¨Õýÿÿÿÿ
+R
+java:S6437ý"6Revoke and change this password, as it is compromised.(×õ¨Õýÿÿÿÿ
+R
+java:S6437"6Revoke and change this password, as it is compromised.(×õ¨Õýÿÿÿÿ
+M
+java:S6437¬"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+R
+java:S6437Ã"6Revoke and change this password, as it is compromised.(×õ¨Õýÿÿÿÿ
+R
+java:S6437à"6Revoke and change this password, as it is compromised.(×õ¨Õýÿÿÿÿ
+R	java:S125ã"<This block of commented-out lines of code should be removed.(Œ×ï 
+M
+java:S6437ø"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+@	java:S106‚"+Replace this use of System.out by a logger.(‹œˆx
+M
+java:S6437’"6Revoke and change this password, as it is compromised.(…ÉÖÌ
+@	java:S106œ"+Replace this use of System.out by a logger.(‹œˆx
+L
+java:S6437¬"6Revoke and change this password, as it is compromised.(‡¦£
+L
+java:S6437Ã"6Revoke and change this password, as it is compromised.(‡¦£
+S
+java:S1854Ý"<Remove this useless assignment to local variable "connInfo".(°âëÓ
+D
+java:S1481Ý"-Remove this unused "connInfo" local variable.(°âëÓ
+L
+java:S6437Þ"6Revoke and change this password, as it is compromised.(‡¦£
+L
+java:S6437ø"6Revoke and change this password, as it is compromised.(‡¦£
+R
+java:S6437‘"6Revoke and change this password, as it is compromised.(õþÃØùÿÿÿÿ
+F	java:S106›"+Replace this use of System.out by a logger.(÷éÓ÷øÿÿÿÿ
+L
+java:S6437«"6Revoke and change this password, as it is compromised.(‡¦£
+W	java:S125¬"<This block of commented-out lines of code should be removed.(ê²²Øýÿÿÿÿ
+L
+java:S6437Ç"6Revoke and change this password, as it is compromised.(‡¦£
+A
+java:S1197à"*Move the array designators [] to the type.(³ùÐƒ
+8	java:S131ç""Add a default case to this switch.(™Šø„

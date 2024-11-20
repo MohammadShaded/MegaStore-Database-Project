@@ -1,0 +1,36 @@
+
+t
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(ßú¾ñûÿÿÿÿ
+k	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßú¾ñûÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·’áˆ
+m	java:S116Y"XRename this field "ContainerPane" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ñ’‹
+o	java:S116`"URename this field "PDateCheck" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Íçùÿÿÿÿ
+n	java:S116c"TRename this field "PDateFrom" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É¨Ñ‚øÿÿÿÿ
+l	java:S116e"RRename this field "PDateTo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï÷ñºÿÿÿÿÿ
+s	java:S116o"YRename this field "PspinnersCheck" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—¾çšøÿÿÿÿ
+o	java:S116r"URename this field "PtotalFrom" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÑ‰ÿÿÿÿÿ
+h	java:S116u"SRename this field "PtotalTo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹‚¤œ
+k	java:S116 "PRename this field "Table" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò§±›ÿÿÿÿÿ
+i	java:S116¢"SRename this field "POrderID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¹³ø
+h	java:S116¤"SRename this field "Supplier" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¿ü}
+j	java:S116¦"TRename this field "Orderdate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÎ‹œ
+k	java:S116¬"PRename this field "Total" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«¼ù”ûÿÿÿÿ
+j	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Ÿ ù8ò•óÕ”2
+J
+java:S1905E"(Remove this unnecessary cast to "Stage".(™î…üÿÿÿÿ8É–óÕ”2
+‰
+java:S1130Q"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(€™¶‘8Ñ–óÕ”2
+I
+java:S1172Q",Remove this unused method parameter "event".(€™¶‘8Ö–óÕ”2
+K
+java:S1905"(Remove this unnecessary cast to "Stage".(™î…üÿÿÿÿ8ó–óÕ”2
+Š
+java:S1130—"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¬¿±8ù–óÕ”2
+J
+java:S1172—",Remove this unused method parameter "event".(¬¿±8ú–óÕ”2
+
+java:S1130›"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ŒìØşÿÿÿÿ8ş–óÕ”2
+O
+java:S1172›",Remove this unused method parameter "event".(ŒìØşÿÿÿÿ8€—óÕ”2
+f
+java:S1128"JRemove this unused import 'com.example.thestore.TablesFields.OrderFields'.(‹ñ¬`8ˆ—óÕ”2

@@ -1,0 +1,30 @@
+
+f	java:S117x"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü…ï‚
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…²Ü£ıÿÿÿÿ
+r
+java:S3655p"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ŸªÍäùÿÿÿÿ8ıú“ò1
+e	java:S116 "PRename this field "Slide" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õë×Ø
+n	java:S116%"YRename this field "PreviousButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ’“
+i	java:S116'"URename this field "NextButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßß¾
+k	java:S116)"QRename this field "CusNew" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Ä’úÿÿÿÿ
+t	java:S116w"ZRename this field "FieldsForUpdate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ¬°îùÿÿÿÿ
+q	java:S116‚"[Rename this field "UPDATE_OPERATION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âø´¬
+œ
+java:S1186^"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­…–ˆùÿÿÿÿ
+@
+java:S1197 "*Move the array designators [] to the type.(õë×Ø
+E	java:S106?"+Replace this use of System.out by a logger.(¨¶ÑÍşÿÿÿÿ
+o	java:S100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓáèÓúÿÿÿÿ8´ü“ò1
+1
+java:S3626X"Remove this redundant jump.(ûÁİ…
+o	java:S100^"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­…–ˆùÿÿÿÿ8ñü“ò1
+b
+java:S1128"ERemove this unused import 'com.example.thestore.Methods.Transitions'.(ŞÚ›„8Ñı“ò1
+v
+java:S1128"YRemove this unused import 'com.example.thestore.SlidesControllers.EmployeeSlidesControl'.(è¬Ğû8Ñı“ò1
+s
+java:S1128	"VRemove this unused import 'com.example.thestore.SlidesControllers.OrderSlidesControl'.(«ÖÑÒ8Ôı“ò1
+c
+java:S1128"ARemove this unused import 'javafx.animation.TranslateTransition'.(¬°™ªøÿÿÿÿ8Õı“ò1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Õı“ò1

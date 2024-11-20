@@ -1,0 +1,12 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ş©Ø
+i	java:S116"TRename this field "Orderdate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹éº‡
+p	java:S116"VRename this field "OrderdateTo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¯Âôøÿÿÿÿ
+h	java:S116	"SRename this field "Customer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÒ„Ò
+g	java:S116
+"RRename this field "OrderID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÉÌú
+j	java:S116"PRename this field "Total" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãğãîüÿÿÿÿ
+f	java:S116"RRename this field "TotalTo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÆŞ-
+n	java:S116"TRename this field "Ordernote" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øæ‚Íøÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ

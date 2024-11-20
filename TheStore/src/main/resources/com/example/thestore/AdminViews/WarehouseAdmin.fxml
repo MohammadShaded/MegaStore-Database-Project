@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ContainerPane1" onMouseClicked="#handleSpinnersCheckAction" prefHeight="640.0" prefWidth="950.0" stylesheets="@../Styles/AdminStyle.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thestore.AdminControllers.WarehouseControl">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b21217" height="25.0" layoutX="-1.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="54.0" />
+        <ScrollPane layoutY="340.0" prefHeight="270.0" prefWidth="950.0">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="500.0" prefWidth="950.0">
+                    <children>
+                        <TableView fx:id="Table" minWidth="-Infinity" prefHeight="500.0" prefWidth="950.0" stylesheets="@../Styles/AdminStyle.css">
+                            <columns>
+                                <TableColumn fx:id="warehouseID" minWidth="-Infinity" prefWidth="97.0" text="Warehouse ID" />
+                                <TableColumn fx:id="wname" minWidth="-Infinity" prefWidth="127.0" text="Warehouse Name" />
+                                <TableColumn fx:id="city" minWidth="-Infinity" prefWidth="69.0" text="City" />
+                                <TableColumn fx:id="street" minWidth="-Infinity" prefWidth="92.0" text="Street" />
+                                <TableColumn fx:id="manager" minWidth="-Infinity" prefWidth="88.0" text="Manager" />
+                                <TableColumn fx:id="capacity" minWidth="-Infinity" prefWidth="155.0" text="Inventory Capacity" />
+                            </columns>
+                        </TableView>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <AnchorPane prefHeight="40.0" prefWidth="950.0" styleClass="BarHeader">
+            <children>
+                <Label layoutX="9.0" layoutY="2.0" prefHeight="35.0" prefWidth="154.0" styleClass="MainLabel" text="Warehouses">
+                    <font>
+                        <Font size="32.0" />
+                    </font>
+                </Label>
+                <Button layoutX="833.0" layoutY="8.0" mnemonicParsing="false" onAction="#openAddPopUp" stylesheets="@../Styles/search.css" text="Add Warehouse" textFill="#d8d3ce">
+                    <styleClass>
+                        <String fx:value="buttonAdd" />
+                        <String fx:value="button-design" />
+                    </styleClass>
+                </Button>
+            </children>
+        </AnchorPane>
+        <TextField fx:id="searchName" layoutX="26.0" layoutY="133.0" prefHeight="27.0" prefWidth="204.0" promptText="warehouse name" styleClass="textfield-design" stylesheets="@../Styles/search.css" />
+        <TextField fx:id="searchCity" layoutX="26.0" layoutY="202.0" promptText="City" styleClass="textfield-design" stylesheets="@../Styles/search.css" />
+        <Label layoutX="28.0" layoutY="104.0" prefHeight="26.0" prefWidth="65.0" stylesheets="@../Styles/search.css" text="Name:" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="26.0" layoutY="177.0" stylesheets="@../Styles/search.css" text="Address:" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="searchStreet" layoutX="154.0" layoutY="202.0" promptText="Street" styleClass="textfield-design" stylesheets="@../Styles/search.css" />
+        <Label layoutX="29.0" layoutY="244.0" stylesheets="@../Styles/search.css" text="Manager :" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Separator layoutX="289.0" layoutY="70.0" orientation="VERTICAL" prefHeight="270.0" />
+        <CheckBox fx:id="spinnersCheck" layoutX="519.0" layoutY="127.0" mnemonicParsing="false" onAction="#handleSpinnersCheckAction" />
+        <Label layoutX="399.0" layoutY="126.0" text="-">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="298.0" layoutY="89.0" prefHeight="35.0" prefWidth="94.0" stylesheets="@../Styles/search.css" text="Capacity:" textFill="#bc363a">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Spinner fx:id="capacityFrom" cache="true" disable="true" editable="true" layoutX="298.0" layoutY="123.0" max="50000" min="0" prefHeight="25.0" prefWidth="94.0" />
+        <Spinner fx:id="capacityTo" cache="true" disable="true" editable="true" layoutX="412.0" layoutY="123.0" max="50000" min="0" prefHeight="25.0" prefWidth="94.0" />
+        <Separator layoutX="560.0" layoutY="71.0" orientation="VERTICAL" prefHeight="270.0" />
+        <Button layoutX="8.0" layoutY="611.0" mnemonicParsing="false" onAction="#delete" stylesheets="@../Styles/search.css" text="Delete" textFill="#d8d3ce">
+            <styleClass>
+                <String fx:value="buttonAdd" />
+                <String fx:value="button-design" />
+            </styleClass>
+        </Button>
+        <Button layoutX="491.0" layoutY="262.0" mnemonicParsing="false" onAction="#update" stylesheets="@../Styles/search.css" text="Update" textFill="#d8d3ce">
+            <styleClass>
+                <String fx:value="buttonAdd" />
+                <String fx:value="button-design" />
+            </styleClass>
+        </Button>
+        <Button layoutX="492.0" layoutY="222.0" mnemonicParsing="false" onAction="#search" stylesheets="@../Styles/search.css" text="Search" textFill="#d8d3ce">
+            <styleClass>
+                <String fx:value="buttonAdd" />
+                <String fx:value="button-design" />
+            </styleClass>
+        </Button>
+      <Button layoutX="896.0" layoutY="304.0" mnemonicParsing="false" onAction="#refreash" prefHeight="20.0" prefWidth="41.0" stylesheets="@../Styles/search.css">
+         <styleClass>
+            <String fx:value="button-RefreshDesign" />
+            <String fx:value="button-design" />
+         </styleClass>
+         <graphic>
+            <ImageView fitHeight="23.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../ImageFiles/refresh.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ChoiceBox fx:id="searchManager" layoutX="24.0" layoutY="269.0" prefWidth="150.0" />
+      <TextField fx:id="searchID" layoutX="298.0" layoutY="191.0" prefHeight="27.0" prefWidth="204.0" promptText="ID" styleClass="textfield-design" stylesheets="@../Styles/search.css" />
+      <Label layoutX="300.0" layoutY="162.0" prefHeight="26.0" prefWidth="129.0" stylesheets="@../Styles/search.css" text="Warehouse ID:" textFill="#bc363a">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <PieChart fx:id="pieChart" layoutX="579.0" layoutY="77.0" prefHeight="259.0" prefWidth="317.0" />
+      <Label layoutX="566.0" layoutY="40.0" prefHeight="35.0" prefWidth="309.0" stylesheets="@../Styles/search.css" text="Percentages of quantities contained:" textFill="#bc363a">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="488.0" layoutY="181.0" mnemonicParsing="false" onAction="#report" stylesheets="@../Styles/search.css" text="Report" textFill="#d8d3ce">
+         <styleClass>
+            <String fx:value="buttonAdd" />
+            <String fx:value="button-design" />
+         </styleClass>
+      </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,41 @@
+#LeftLocation{
+
+    -fx-background-color: linear-gradient(to bottom, #B21217 80%, #CF1920);
+
+}
+#UpLocation{
+
+    -fx-background-color: #B21217;
+
+}
+
+#ButtBox .button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial", sans-serif;
+
+    -fx-background-color:transparent;
+    -fx-alignment: center;
+    -fx-cursor: hand;
+}
+.button:hover {
+    -fx-translate-x: 0.3em; /* Translate the button horizontally on hover */
+    -fx-background-color: #E76679; /* Change background color on hover */
+}
+
+.button:pressed{
+    -fx-background-color : #4364f7 ;
+    -fx-border-color:#93e1ff;
+    -fx-border-radius:10px;
+    -fx-background-radius:10px;
+}
+
+
+
+
+.my-textfield {
+    -fx-font-family: "Arial";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #d8d3ce;
+}

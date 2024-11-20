@@ -1,0 +1,39 @@
+
+#log {
+    -fx-background-color: #B21217;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+#forget{
+    -fx-text-fill: #9DA1AA;
+
+}
+
+#interiar{
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100% , white 10%, #e5e4e4);
+    -fx-background-radius: 20;
+}
+
+
+#outer{
+    -fx-background-color: linear-gradient(from 0% 0% to 110% 100% , #f1f1f1 10%, #b49e9e);
+
+}
+
+.gradient{
+    -fx-background-color: linear-gradient(from 0% 0% to 110% 101% , #e8e7e7 10%, #d9d9d9);
+
+}
+
+#email{
+    -fx-background-color: transparent;
+    -fx-border-color: #B21217 ;
+    -fx-border-width: 0px 0px 2px 0px;
+}
+#password{
+    -fx-background-color: transparent;
+    -fx-border-color: #B21217 ;
+    -fx-border-width: 0px 0px 2px 0px;
+}

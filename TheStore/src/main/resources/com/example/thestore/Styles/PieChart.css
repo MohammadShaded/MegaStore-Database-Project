@@ -1,0 +1,26 @@
+/* Apply styles to the PieChart */
+.chart-pie {
+    -fx-background-color: #B21217; /* Set background color */
+}
+
+/* Apply styles to the PieChart data labels */
+.chart-pie-label {
+    -fx-font-size: 12px; /* Set font size for data labels */
+}
+
+/* Apply styles to each pie slice */
+.chart-pie-symbol {
+    -fx-background-radius: 5px; /* Set border-radius for slices */
+    -fx-border-radius: 5px; /* Set background-radius for slices */
+}
+
+/* Define colors for each pie slice */
+.chart-pie-color0 {
+    -fx-pie-color: #3498db; /* Slice 1 color */
+}
+
+.chart-pie-color1 {
+    -fx-pie-color: #2ecc71; /* Slice 2 color */
+}
+
+/* Add more color definitions for additional slices if needed */

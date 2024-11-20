@@ -1,0 +1,8 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(›à¼Ž
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®¥Á©þÿÿÿÿ
+g	java:S116"RRename this field "OrderID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çð›æ
+h	java:S116"TRename this field "Ordernote" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß²Ý:
+i	java:S116"TRename this field "Orderdate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Þ³º
+h	java:S116"SRename this field "Customer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›à¼Ž

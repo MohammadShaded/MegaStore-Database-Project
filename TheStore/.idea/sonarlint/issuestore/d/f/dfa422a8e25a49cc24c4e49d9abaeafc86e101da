@@ -1,0 +1,32 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·’áˆ
+m	java:S116*"XRename this field "ContainerPane" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ñ’‹
+j	java:S116~"PRename this field "Table" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…íîşúÿÿÿÿ
+k	java:S116"URename this field "CustomerID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û¨ƒÀ
+j	java:S116„"ORename this field "Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸíÆ¸ùÿÿÿÿ
+x	java:S116‡"]Rename this field "ContactInformation" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¼üÿÿÿÿ
+m	java:S116Š"RRename this field "Address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÎâùúÿÿÿÿ
+C
+java:S1905@"(Remove this unnecessary cast to "Stage".(™î…üÿÿÿÿ
+‚
+java:S1130I"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¬¿±
+B
+java:S1172I",Remove this unused method parameter "event".(¬¿±
+‚
+java:S1130M"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(€™¶‘
+B
+java:S1172M",Remove this unused method parameter "event".(€™¶‘
+Q
+java:S1854V"6Remove this useless assignment to local variable "id".(ş±Âşÿÿÿÿ
+B
+java:S1481V"'Remove this unused "id" local variable.(ş±Âşÿÿÿÿ
+C
+java:S1905g"(Remove this unnecessary cast to "Stage".(™î…üÿÿÿÿ
+‡
+java:S1130q"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ŒìØşÿÿÿÿ
+G
+java:S1172q",Remove this unused method parameter "event".(ŒìØşÿÿÿÿ
+c
+java:S1128"MRemove this unused import 'com.example.thestore.TablesFields.EmployeeFields'.(û“¶¤
+_
+java:S1128"JRemove this unused import 'com.example.thestore.TablesFields.OrderFields'.(‹ñ¬`
